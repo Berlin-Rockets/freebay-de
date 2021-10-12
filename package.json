@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  
   "scripts": {
     "start": "node app.js",
     "client": "npm run start --prefix client",
@@ -65,5 +64,8 @@
     "plugins": [
       "@babel/plugin-transform-react-jsx"
     ]
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
